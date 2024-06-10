@@ -1,0 +1,28 @@
+    1  git config --global user.name "Olena72Fox"
+    2  git config --global user.email "prodaiko5@gmail.com"
+    3  git config --global user.name 
+    4  git config --get user.email 
+    5  git config --get user.name
+    6  git clone https://github.com/Olena72Fox/HW_10.git
+    7  cd HW_10/
+    8  touch text_ignore.txt
+    9  git status
+   10  notepad .gitignore
+   11  git status
+   12  git add .
+   13  git commit -m "created file"
+   14  touch main_test.txt
+   15  git add .
+   16  git commit -m "added main_test.txt"
+   17  git checkout -b develop
+   18  touch develop_test.txt
+   19  git add .
+   20  git commit -m "added develop_test.txt"
+   21  vim develop_test.txt
+   22  git status
+   23  git add .
+   24  git commit -m "chanced develop_test.txt"
+   25  git checkout main
+   26  git merge develop
+   27  git log
+   28  history>command_list.csv
